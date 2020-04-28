@@ -1,0 +1,6 @@
+﻿  main.cpp
+D:\sim\코딩테스트\Algorithm\백준\5.분수 합-1735-유클리드호제법-46%\Project1\Project1\main.cpp(16,24): warning C4101: 'Great_sum' :참조되지 않은 지역 변수입니다.
+D:\sim\코딩테스트\Algorithm\백준\5.분수 합-1735-유클리드호제법-46%\Project1\Project1\main.cpp(16,15): warning C4101: 'Great_2' :참조되지 않은 지역 변수입니다.
+D:\sim\코딩테스트\Algorithm\백준\5.분수 합-1735-유클리드호제법-46%\Project1\Project1\main.cpp(15,6): warning C4101: 'min_sum' :참조되지 않은 지역 변수입니다.
+D:\sim\코딩테스트\Algorithm\백준\5.분수 합-1735-유클리드호제법-46%\Project1\Project1\main.cpp(16,6): warning C4101: 'Great_1' :참조되지 않은 지역 변수입니다.
+  Project1.vcxproj -> D:\sim\코딩테스트\Algorithm\백준\5.분수 합-1735-유클리드호제법-46%\Project1\Debug\Project1.exe
