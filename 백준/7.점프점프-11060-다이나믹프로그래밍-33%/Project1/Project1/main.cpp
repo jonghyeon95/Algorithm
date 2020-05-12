@@ -31,13 +31,13 @@ int main()
 			continue;
 		}
 		int d = arr[i];
-		for (int j = 1; j <= d; j++)
+		for (int j = 1; j <= d; j++)	//j에서 이동할 수 있는 거리
 		{
 			if (i + j >= n)
 			{
 				break;
 			}
-			if (dp[i + j] == 0 || dp[i + j] > dp[i] + 1)	//값이 없음 or 기존값이 더 클 경우
+			if (dp[i + j] == 0)	//값이 없음
 			{
 				dp[i + j] = dp[i] + 1;
 			}
