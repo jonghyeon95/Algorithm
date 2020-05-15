@@ -1,5 +1,0 @@
-﻿  main.cpp
-D:\sim\코딩테스트\Algorithm\백준\13.제곱ㄴㄴ수-1016-19--에라토스테네스의 체\Project1\Project1\main.cpp(45,32): warning C4244: '인수': '__int64'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-D:\sim\코딩테스트\Algorithm\백준\13.제곱ㄴㄴ수-1016-19--에라토스테네스의 체\Project1\Project1\main.cpp(56,19): warning C4244: '인수': '__int64'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-D:\sim\코딩테스트\Algorithm\백준\13.제곱ㄴㄴ수-1016-19--에라토스테네스의 체\Project1\Project1\main.cpp(64,17): warning C4244: '인수': '__int64'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  Project1.vcxproj -> D:\sim\코딩테스트\Algorithm\백준\13.제곱ㄴㄴ수-1016-19--에라토스테네스의 체\Project1\Debug\Project1.exe
