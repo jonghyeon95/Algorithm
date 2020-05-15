@@ -1,0 +1,4 @@
+﻿  폰켓몬.cpp
+D:\sim\코딩테스트\Algorithm\Programmers\프로그래머스_기타\Project\Project\폰켓몬.cpp(17,23): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+D:\sim\코딩테스트\Algorithm\Programmers\프로그래머스_기타\Project\Project\폰켓몬.cpp(22,22): warning C4018: '>': signed 또는 unsigned가 일치하지 않습니다.
+  Project.vcxproj -> D:\sim\코딩테스트\Algorithm\Programmers\프로그래머스_기타\Project\Debug\Project.exe

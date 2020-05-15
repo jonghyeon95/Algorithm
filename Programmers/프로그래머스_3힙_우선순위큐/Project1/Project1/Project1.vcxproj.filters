@@ -24,7 +24,7 @@
     <ClCompile Include="lv3-1-디스크처리.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="lv3-2.cpp">
+    <ClCompile Include="lv3-2 이중우선순위큐.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
