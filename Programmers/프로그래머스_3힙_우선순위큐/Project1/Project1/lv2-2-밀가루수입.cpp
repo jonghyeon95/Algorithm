@@ -13,7 +13,7 @@ int solution(int stock, vector<int> dates, vector<int> supplies, int k)
     int answer = 0;
     int day = 0;
     int dates_idx = 0;
-    priority_queue<int, vector<int>, less<int>> sup_pq;
+    priority_queue<int, int, less> sup_pq;
 
     for (day; day < k; day++)
     {

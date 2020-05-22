@@ -1,5 +1,0 @@
-﻿  main.cpp
-D:\sim\코딩테스트\0402\pro_skill1\pro_skill1\main.cpp(7,23): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
-D:\sim\코딩테스트\0402\pro_skill1\pro_skill1\main.cpp(13,27): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
-D:\sim\코딩테스트\0402\pro_skill1\pro_skill1\main.cpp(17,35): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
-  pro_skill1.vcxproj -> D:\sim\코딩테스트\0402\pro_skill1\Debug\pro_skill1.exe
