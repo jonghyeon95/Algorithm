@@ -30,5 +30,11 @@
     <ClCompile Include="19블라인드-오픈채팅방-lv2.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\..\프로그래머스_기타\Project\Project\2017본선_단체사진찍기_lv2.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="17본선_사천성_lv3.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

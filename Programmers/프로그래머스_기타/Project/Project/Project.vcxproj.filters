@@ -18,5 +18,14 @@
     <ClCompile Include="폰켓몬.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="S-W2018_스킬트리_lv2.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="S-W2018_소수만들기_lv2.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="2017본선_단체사진찍기_lv2.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
