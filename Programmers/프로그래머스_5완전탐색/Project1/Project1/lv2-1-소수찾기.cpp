@@ -1,96 +1,77 @@
 //문제
 //0~9들어가는 배열(문자열) 있을때
 //이를 조합해서 나오는 소수의 개수 찾기
-
-
-//실패 포기
-//한자리수만 있을때 못잡아냄
+//0<=n<=9999999
+//1.만들수있는 최대값을 만든다
+//2.최대값까지의 소수를 모두 찾는다
+//3.최대값까지의 소수를 만들수있는지 체크한다
 #include <iostream>
 #include <string>
 #include <vector>
-#include <queue>
 #include <algorithm>
 #include <set>
 using namespace std;
-
-void findsosoo(string max, vector<int>& sosoo)
+int sosoo[10000000];    //1이면 소수, 0이면 소수아님
+void findsosoo(int max)
 {
-    for (int i = 2; i <= atoi(max.c_str()); i++)
+    sosoo[1] = 0;
+    for (int i = 2; i <= max; i++)
     {
-        int t = 2;
-        while (i != t)
+        sosoo[i] = 1;
+    }
+    for (int i = 2; i <= sqrt(max); i++)
+    {
+        if (sosoo[i] == 0)
+            continue;
+        for (int j = i * i; j <= max; j += i)
         {
-            if (i % t == 0)
-            {
-                break;
-            }
-            else
-                t++;
-        }
-        if (i == t)
-        {
-            sosoo.push_back(i);
+            sosoo[j] = 0;
         }
     }
 }
-bool compare(string a, string b)
+bool compare(int a, int b)
 {
     return a > b;
 }
-int solution(string numbers) 
-{
+int solution(string numbers) {
     int answer = 0;
-    vector<string> nums;
-    vector<int> sosoo;
-    string max;
-    vector<string> sosoo_vec;
-    
+    string max_str = "";
+    int max_int;
+    vector<int> vec;
     for (int i = 0; i < numbers.size(); i++)
     {
-        nums.push_back(numbers.substr(i, 1));
+        vec.push_back(numbers[i]-'0');
     }
-    sort(nums.begin(), nums.end(), compare);
-    for (int i = 0; i < nums.size(); i++)
+    sort(vec.begin(), vec.end(), compare);
+
+    for (int i = 0; i < vec.size(); i++)
     {
-        max += nums[i];
+        max_str += to_string(vec[i]);
     }
-    findsosoo(max, sosoo);
+    max_int = atoi(max_str.c_str());
+    findsosoo(max_int);
 
-    ///////////////자릿값 만들기
-    priority_queue<string> pq;
-    for (int i = 0; i < sosoo.size(); i++)
+    for (int i = 2; i <= max_int; i++)
     {
-        string str = to_string(sosoo[i]);
-        string change_str;
-        for (int j = 0; j < str.size(); j++)
+        if (sosoo[i] == 1)
         {
-            pq.push(str.substr(j, 1));
-        }
-        
-        for (int i = pq.size(); i < numbers.length(); i++)
-        {
-            pq.push("0");
-        }
-
-        for (int j = 0; !pq.empty(); j++)
-        {
-            change_str += pq.top();
-            pq.pop();
-        }
-        sosoo_vec.push_back(change_str);
-    }
-
-    string str;
-    for (int i = 0; i < nums.size(); i++)
-    {
-        str += nums[i];
-    }
-
-    for (int i = 0; i < sosoo_vec.size(); i++)
-    {
-        if (str.compare(sosoo_vec[i]) == 0)
-        {
-            answer++;
+            bool suc = true;
+            vector<int> storage(vec.begin(), vec.end());
+            int j = i;
+            while (j > 0)
+            {
+                int a = j % 10;
+                int index = find(storage.begin(), storage.end(), a) - storage.begin();
+                if (index == storage.size()) //못찾으면
+                {
+                    suc = false;
+                    break;
+                }
+                storage.erase(storage.begin() + index);
+                j /= 10;
+            }
+            if (suc == true)
+                answer++;
         }
     }
 

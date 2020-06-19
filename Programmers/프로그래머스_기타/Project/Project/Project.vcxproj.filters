@@ -27,5 +27,20 @@
     <ClCompile Include="2017본선_단체사진찍기_lv2.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="S-W2018_영어끝말잇기_lv2.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="연습문제-124나라의숫자_lv2.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="2017팁스타운_짝지어제거하기_lv2.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="연습문제-가장큰정사각형찾기_lv2.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="S-W2019_멀쩡한사각형_lv2.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
