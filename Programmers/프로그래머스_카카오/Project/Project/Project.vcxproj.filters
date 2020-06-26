@@ -30,13 +30,25 @@
     <ClCompile Include="19블라인드-오픈채팅방-lv2.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\프로그래머스_기타\Project\Project\2017본선_단체사진찍기_lv2.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="17본선_사천성_lv3.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="17예선_컬러링북_lv2.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="19겨울인턴-크레인인형뽑기-lv1.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="20블라인드-문자열압축_lv2.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="20블라인드-괄호변환-lv2.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="18블라인드-[1차]캐시_lv2.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="18블라인드-N진수게임-lv2.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
