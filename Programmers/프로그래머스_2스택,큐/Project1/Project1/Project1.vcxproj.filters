@@ -27,10 +27,10 @@
     <ClCompile Include="lv2-4-중요도프린터.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="lv2-3-프로그램개발.cpp">
+    <ClCompile Include="lv2-6-주식가격변동.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="lv2-6-주식가격변동.cpp">
+    <ClCompile Include="lv2-3-기능개발.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

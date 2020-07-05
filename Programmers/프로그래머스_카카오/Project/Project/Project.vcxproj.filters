@@ -24,9 +24,6 @@
     <ClCompile Include="19블라인드-실패율-lv1.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="gg19겨울인턴-불량사용자-lv3.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="19블라인드-오픈채팅방-lv2.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
@@ -49,6 +46,9 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="18블라인드-N진수게임-lv2.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="gg17예선-브라이언의고민_lv3.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

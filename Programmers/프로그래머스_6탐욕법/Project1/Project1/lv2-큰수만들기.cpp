@@ -33,8 +33,8 @@ string solution(string number, int k)
 }
 int main()
 {
-    string number = "11111";
-    int k = 4;
+    string number = "6473";
+    int k = 2;
 
     cout << solution(number, k);
 }

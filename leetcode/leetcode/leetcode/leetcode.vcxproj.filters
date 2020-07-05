@@ -18,5 +18,8 @@
     <ClCompile Include="1.55Jump Game.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="2.407Trapping Rain Water ll.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -24,9 +24,6 @@
     <ClCompile Include="S-W2018_소수만들기_lv2.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="2017본선_단체사진찍기_lv2.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="S-W2018_영어끝말잇기_lv2.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
@@ -54,9 +51,6 @@
     <ClCompile Include="연습문제-다음큰숫자_lv2.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="gg연습문제-거스름돈_lv3.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="연습문제-최댓값과최솟값_lv2.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
@@ -82,6 +76,15 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="연습문제-땅따먹기_lv2.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="연습문제-최고의집합_lv3.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="연습문제-거스름돈_lv3.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="연습문제-멀리뛰기_lv3.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

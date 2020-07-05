@@ -8,6 +8,34 @@
 #include <vector>
 #include <algorithm>
 using namespace std;
+
+////©ое╫
+//vector<int> lastrow;
+//void req(vector<vector<int>>& land, int row, int col, int sum)
+//{
+//    if (row == land.size())
+//    {
+//        lastrow.push_back(sum);
+//        return;
+//    }
+//    for (int i = 0; i < land[0].size(); i++)
+//    {
+//        if (i != col)
+//        {
+//            req(land, row + 1, i, sum + land[row][i]);
+//        }
+//    }
+//}
+//int solution(vector<vector<int>> land)
+//{
+//    for (int i = 0; i < land[0].size(); i++)
+//    {
+//        req(land, 1, i, land[0][i]);
+//    }
+//
+//    return *max_element(lastrow.begin(), lastrow.end());
+//}
+//dp
 int secondMax(int idx, vector<int> vec)
 {
     int max = -1;
